@@ -1,0 +1,17 @@
+Steps to Execute-:
+
+1. Unzip file.
+2. Import As a Maven Project  in your IDE.
+3. Inside src/main/java ->PiglatinApplication.java
+4. Right click on PiglatinApplication.java  class and run as JAVA Application.
+
+Testing Steps:-
+1. Swagger
+ open URL- http://localhost:8080/swagger-ui.html#!/piglatin-controller/translateInLatinUsingGET
+ 
+And pass your input inside sentence field.
+
+2. Postman
+ Call GET api http://localhost:8080/piglatin
+ And pass in Params KEY as sentence.
+ And value as per your input
